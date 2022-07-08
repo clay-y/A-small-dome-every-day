@@ -1,0 +1,39 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+.container{
+    display: flex;
+    width: 90vw;
+}
+.container .panel{
+    height: 80vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    flex: 0.5;
+    margin: 10px;
+    border-radius: 50px;
+    position: relative;
+    transition: flex 0.7s ease-in;
+}
+.container .panel h3{
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    color: #ffffff;
+    display: none;
+}
+.container .active{
+    flex: 5;
+}
+.container .active h3{
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    color: #ffffff;
+    display: inline-block;
+}
