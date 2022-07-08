@@ -1,4 +1,15 @@
 
+// 第一种实现方式
+// const panel = document.querySelectorAll('.panel')
+// for (let i = 0; i < panel.length; i++) {
+//     panel[i].onclick =()=>{
+//         let brother = panel[i].parentNode.children
+//         for (let j = 0; j < brother.length; j++) {
+//             brother[j].classList.remove('active')
+//         }
+//         panel[i].classList.add('active')
+//     }
+// }
 
 // 第二种实现方式
 const panel = document.querySelectorAll('.panel')
