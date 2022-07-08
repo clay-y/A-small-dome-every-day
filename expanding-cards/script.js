@@ -1,5 +1,5 @@
 
-// 自己写的
+// 第一种实现方式
 // const panel = document.querySelectorAll('.panel')
 // for (let i = 0; i < panel.length; i++) {
 //     panel[i].onclick =()=>{
@@ -11,8 +11,7 @@
 //     }
 // }
 
-// 模仿的
-
+// 第二种实现方式
 const panel = document.querySelectorAll('.panel')
 panel.forEach(panel=>{
     panel.addEventListener('click',()=>{
